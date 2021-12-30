@@ -8,7 +8,7 @@ public class WaveController : MonoBehaviour
 
     [SerializeField] int[] asteroidPerWave;
     [SerializeField] int currentWave;
-    [SerializeField] float waitTimeBetweenWaves = 1f;
+    [SerializeField] float waitTimeBetweenWaves = 2f;
     [SerializeField] bool waveInProgress = false;
     [SerializeField] Asteroid[] currentAsteroids;
     float time;

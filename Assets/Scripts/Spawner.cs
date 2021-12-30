@@ -7,8 +7,8 @@ using UnityEngine;
 public class Spawner : MonoBehaviour
 {
     [SerializeField] Asteroid[] spawnableAsteroids;
-    [SerializeField] float timeBetweenAsteroids = 1f;
-    [SerializeField] float spawnRadius = 1f;
+    [SerializeField] float timeBetweenAsteroids = 3f;
+    [SerializeField] float spawnRadius = 6f;
 
     public bool spawningDone = false;
     [SerializeField] int asteroidsPerWave;
